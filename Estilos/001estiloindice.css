@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(236, 66, 66);
+}
+
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h1{
+    background-color: darkgrey;  border: 10px dotted white; font-size: 45px;
+    text-decoration: wheat;
+    text-align: center;
+}
+h2{
+    background-color: darkgrey; border-bottom: 10px; 
+    text-decoration: wheat;
+    text-align: center;
+
+}
+h3{
+    background-color: darkgrey;
+    text-decoration: wheat;
+    text-align: center;
+}
+ul{
+     background-color: rgb(197, 197, 197);
+    text-decoration-color: black;
+}
+
