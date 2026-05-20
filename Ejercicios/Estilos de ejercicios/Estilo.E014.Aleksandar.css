@@ -1,0 +1,95 @@
+
+body{
+    background-color: rgba(247, 246, 242);
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    font-family: 'Libre Franklin', Courier, monospace;
+    
+}
+
+header{
+    margin-top: 90px;
+}
+
+header img{
+    width: 90px;
+    height: 90px;
+    border-radius: 400px;
+    margin-bottom: 0;
+}
+
+hr{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 1px solid rgba(222, 221, 217);
+}
+
+header h1{
+    font-size: 50px;
+    font-weight: bold;  
+    padding-bottom: 0px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.subtitulo-titulo{
+    padding-bottom: 0px;
+}
+
+header p{
+    margin-bottom: 20px;
+    padding-top: -10px;
+}
+
+p{
+    color: rgba(54, 60, 72);
+    line-height: 30px;
+}
+
+h2{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.cuadrados{
+    border: 0px solid;    
+    background-color: rgba(239, 238, 234);
+    padding-bottom: 2px;
+    padding-top: 2px;    
+}
+
+div{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.etiquetas{
+    border: 0px solid;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    color: rgb(65, 65, 65);
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 4px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.espacio1{
+    margin-bottom: 40px;
+}
+
+li{
+    font-weight: bold;      
+}
+
+a{
+    color: black;
+    font-size: 15px;
+}
+
+.final{
+    padding-bottom: 50px;
+}
