@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.transparencia li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.transparencia h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.transparencia a{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedoralto{            
+            box-sizing: border-box;
+            background-image: url(../Imagenesdeejercicios/mesaescritorio.jpg);
+            padding-top: 45px;
+            height: 55vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;  
+}
