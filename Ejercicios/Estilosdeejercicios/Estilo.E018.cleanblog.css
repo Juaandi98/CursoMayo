@@ -5,17 +5,26 @@
 
 body{
     text-align: center;
+    font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .transparencia li{
     display: inline-block;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .transparencia h1{
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 5.7rem;
+    margin-top: 15vh;
+    color: white;
+}
+
+.transparencia p{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: lighter;
 }
 
 .transparencia a{
@@ -23,12 +32,75 @@ body{
     text-decoration: none;
 }
 
-.contenedoralto{            
+.transparencia{
+            background-color: rgba(0, 0, 0, 0.377);
+            height: 55vh;
+            padding-top: 2vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-sizing: border-box;
+}
+
+.contenedoralto{           
             box-sizing: border-box;
             background-image: url(../Imagenesdeejercicios/mesaescritorio.jpg);
-            padding-top: 45px;
             height: 55vh;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;  
 }
+
+.alineado{
+    text-align: justify;
+    margin-left: 31vw;
+    margin-top: 9vh;
+}
+
+.alineado h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 4.5vh;
+}
+
+.alineado p{
+    padding-top: 1vh;
+    font-size: 1.9rem;
+    font-weight: lighter;
+    padding-bottom: 1vh;
+}
+
+.alineado data{
+    font-size: 1.2rem;
+    color: rgb(133, 133, 133);
+}
+
+hr{
+    margin-top: 2.7vh;
+    margin-bottom: 2.5vw;
+    margin-right: 63vh;
+}
+
+.cuadrado{
+    text-align: right;
+    margin-right: 32vw;
+}
+
+footer ul{
+    margin-left: 12vw;   
+}
+
+footer li{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 1.7rem;
+    margin-top: 2vh;
+    background-color: black;
+    color: white;   
+}
+
+
+
+
