@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Trip</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .lobster-regular {
+            font-family: "Lobster", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 7.6rem;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .portada {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url("Imagenesdeejercicios/1roadtrip.jpg");
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+            color: rgba(255, 255, 255, 0.726);
+            background-attachment: fixed;
+        }
+
+        .fondo {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.432);
+        }
+
+        .negrita {
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        .fijo {
+            position: fixed;
+            top: 1.8rem;
+            left: 1.5rem;
+            z-index: 1000;
+            color: rgb(241, 241, 241);
+            font-size: 1.1rem;
+        }
+
+        .flecha {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            color: white;
+            font-size: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0);
+            padding: 0.5rem;
+            border-radius: 5rem;
+            background-color: rgba(255, 255, 255, 0.158);
+        }
+
+        .flecha:hover {
+            background-color: rgba(255, 255, 255, 0.034);
+            color: rgba(255, 255, 255, 0.466);
+        }
+
+        .pagina {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+        }
+
+        .img_pag2 {
+            background-image: url("Imagenesdeejercicios/2roadtrip.jpg");
+        }
+
+        .recuadro {
+            width: 55vw;
+            height: 47vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.527);
+            border-radius: 0.2rem;
+            text-align: center;
+            color: white;
+        }
+
+        h2 {
+            font-size: 1.9rem;
+            text-transform: uppercase;
+            margin-top: 4.5rem;
+        }
+
+        .numero {
+            font-size: 1.4rem;
+            color: rgb(117, 117, 117);
+        }
+
+        .textorro {
+            margin-top: 2.4rem;
+            line-height: 1.7rem;
+            font-size: 1.1rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            color: rgb(163, 163, 163);
+            margin-bottom: 3.5rem;
+        }
+
+        .boton {
+            border: 1px solid rgba(126, 126, 126, 0.411);
+            padding-bottom: 0.7rem;
+            padding-top: 0.7rem;
+            padding-left: 1.4rem;
+            padding-right: 1.4rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 0.2rem;
+            color: white;
+        }
+
+        .boton:hover {
+            background-color: rgba(138, 138, 138, 0.082);
+        }
+
+        .img_pag3 {
+            background-image: url("Imagenesdeejercicios/3roadtrip.jpg");
+        }
+
+        .img_pag4 {
+            background-image: url("Imagenesdeejercicios/4roadtrip.jpg");
+        }
+
+        .img_pag5 {
+            background-image: url("Imagenesdeejercicios/5roadtrip.jpg");
+        }
+
+        footer{
+            width: 100vw;
+            height: 8vh;
+            background-color: black;
+            text-align: center;
+            font-size: 0.9rem;
+            color: rgb(126, 126, 126);
+        }
+
+        footer p{
+            padding-top: 1.8rem;
+        }
+
+        .rojo a{
+            text-decoration: none;
+            color: brown;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header class="fijo">
+
+        <p>
+
+            <span class="negrita"> Road Trip </span> by TEMPLATED
+
+        </p>
+
+    </header>
+
+    <section class="portada">
+
+        <div class="fondo">
+
+            <h1 class="lobster-regular">This is Road Trip</h1>
+
+            <a href="#pag2"><p class="flecha"><i class="fa-solid fa-chevron-down"></i></p></a>
+
+        </div>
+
+    </section>
+
+    <section id="pag2" class="pagina img_pag2">
+
+        <div class="fondo">
+
+            <div class="recuadro">
+
+                <h2>Nibh non lobortis mus nibh</h2>
+
+                <span class="numero">
+                    <p>01.01.2017</p>
+                </span>
+
+                <p class="textorro">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur
+                    purus a enim
+                    platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a
+                    duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac
+                    blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in
+                    tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+
+                <a class="boton" href="#">LEARN MORE</a>                
+
+            </div>
+
+        </div>
+        
+        <a href="#pag3"><p class="flecha"><i class="fa-solid fa-chevron-down"></i></p></a>
+
+    </section>
+
+    <section id="pag3" class="pagina img_pag3">
+
+        <div class="fondo">
+
+            <div class="recuadro">
+
+                <h2>Mus elit a ultricies at</h2>
+
+                <span class="numero">
+                    <p>12.21.2016</p>
+                </span>
+
+                <p class="textorro">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur
+                    purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed
+                    vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient
+                    nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in
+                    tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+
+                <a class="boton" href="#">LEARN MORE</a>               
+
+            </div>
+
+        </div>
+        
+        <a href="#pag4"><p class="flecha"><i class="fa-solid fa-chevron-down"></i></p></a>
+
+    </section>
+
+    <section id="pag4" class="pagina img_pag4">
+
+        <div class="fondo">
+
+            <div class="recuadro">
+
+                <h2>Varius a cursus aliquet</h2>
+
+                <span class="numero">
+                    <p>11.11.2016</p>
+                </span>
+
+                <p class="textorro">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur
+                    purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed
+                    vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient
+                    nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in
+                    tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+
+                <a class="boton" href="#">LEARN MORE</a>
+
+            </div>
+
+        </div>
+
+        <a href="#pag5"><p class="flecha"><i class="fa-solid fa-chevron-down"></i></p></a>
+
+    </section>
+
+    <section id="pag5" class="pagina img_pag5">
+
+        <div class="fondo">
+
+            <div class="recuadro">
+
+                <h2>Luctus blandit mi lectus in nascetur</h2>
+
+                <span class="numero">
+                    <p>10.30.2016</p>
+                </span>
+
+                <p class="textorro">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur
+                    purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed
+                    vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient
+                    nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in
+                    tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+
+                <a class="boton" href="#">LEARN MORE</a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>Site made with: <span class="rojo"><a href="#">Templated</a></span>  Distributed by <span class="rojo"><a href="#">ThemeWagon</a></span> </p>
+
+    </footer>
+           
+</body>
+
+</html>
