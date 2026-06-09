@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Grid</title>
+    <style>
+
+        .contenedor{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,1fr);
+            gap: 20px;
+            width: 55%;
+            min-height: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: black;            
+        }
+
+        .contenedor div{           
+            /* min-height: 200px;
+            min-width: 200px; */
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(218, 178, 0);            
+            border-radius: 10px;
+        }
+
+        .uno{
+            background-image: url(Imagenesdeejercicios/1.png);            
+        }
+
+        .dos{
+            background-image: url(Imagenesdeejercicios/2.png);
+        }
+
+        .tres{
+            background-image: url(Imagenesdeejercicios/3.png);
+            grid-column: 3/5;
+        }
+
+        .cuatro{
+            background-image: url(Imagenesdeejercicios/4.png);
+            grid-row: 2/4;
+        }
+
+        .cinco{
+            background-image: url(Imagenesdeejercicios/5.png);
+            grid-column: 2/4;
+        }
+
+        .seis{
+            background-image: url(Imagenesdeejercicios/6.png);
+        }
+
+        .siete{
+            background-image: url(Imagenesdeejercicios/7.png);
+            grid-column: 2/4;
+        }
+
+        .ocho{
+            background-image: url(Imagenesdeejercicios/8.png);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="uno"></div>
+
+        <div class="dos"></div>
+
+        <div class="tres"></div>
+
+        <div class="cuatro"></div>
+
+        <div class="cinco"></div>
+
+        <div class="seis"></div>
+
+        <div class="siete"></div>
+
+        <div class="ocho"></div>
+
+    </div>
+    
+</body>
+</html>
