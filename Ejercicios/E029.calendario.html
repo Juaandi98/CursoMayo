@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <style>
+
+        .contenedor{
+            border: 2px solid rgba(62, 47, 36);
+            height: 50%;
+            width: 50%;
+            margin: 0 auto;
+            background-color: rgb(248, 241, 229); 
+
+        }
+
+        header{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgba(62, 47, 36);           
+        }
+
+        h1{
+            font-size: 2.7rem;
+            margin-bottom: -20px;
+        }
+
+        header p{
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+        hr{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            height: 1px;
+            background-color: rgba(62, 47, 36);
+        }
+
+        .dias{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            justify-content: space-evenly;
+            margin-top: 1.5rem;
+            color: rgba(62, 47, 36);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .cuadrao{            
+            display: grid;            
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: repeat(6,1fr);     
+            gap: 5px;  
+            height: 50%;
+            width: 50%;   
+            margin-left: 2.6rem;              
+        }
+        
+        .cuadrao :hover{
+            background-color: antiquewhite;
+        }
+
+        .cuadrao .numero{
+            border: 1px solid rgba(62, 47, 36);
+            padding: 2.2rem;
+            padding-left: 2.7rem;
+            padding-right: 2.7rem;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.7rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }  
+
+        
+        
+        footer{
+            margin-top: -6rem;  
+        }
+        
+        footer p{
+            text-align: center;
+            font-size: 0.8rem;  
+            color: rgba(62, 47, 36);                    
+        }       
+
+        .dom{
+            background-color: rgba(247, 225, 217);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header>
+
+            <h1>Octubre 1897</h1>
+
+            <p>Registro de observaciones del viajero</p>
+
+        </header>
+
+        <hr>
+
+        <div class="dias">
+
+            <div>Lun</div>
+
+            <div>Mar</div>
+
+            <div>Mié</div>
+
+            <div>Jue</div>
+
+            <div>Vie</div>
+
+            <div>Sáb</div>
+
+            <div>Dom</div>
+
+        </div>
+
+        <hr>
+
+        <div class="cuadrao">
+
+            <div></div>
+
+            <div class="numero">1</div>
+
+            <div class="numero">2</div>
+
+            <div class="numero">3</div>
+
+            <div class="numero">4</div>
+
+            <div class="numero">5</div>
+
+            <div class="dom numero">6</div>
+
+            <div class="numero">7</div>
+
+            <div class="numero">8</div>
+
+            <div class="numero">9</div>
+
+            <div class="numero">10</div>
+
+            <div class="numero">11</div>
+
+            <div class="numero">12</div>
+
+            <div class="dom numero">13</div>
+
+            <div class="numero">14</div>
+
+            <div class="numero">15</div>
+
+            <div class="numero">16</div>
+
+            <div class="numero">17</div>
+
+            <div class="numero">18</div>
+
+            <div class="numero">19</div>
+
+            <div class="dom numero">20</div>
+
+            <div class="numero">21</div>
+
+            <div class="numero">22</div>
+
+            <div class="numero">23</div>
+
+            <div class="numero">24</div>
+
+            <div class="numero">25</div>
+
+            <div class="numero">26</div>
+
+            <div class="dom numero">27</div>
+
+            <div class="numero">28</div>
+
+            <div class="numero">29</div>
+
+            <div class="numero">30</div>
+
+            <div class="numero">31</div>
+
+        </div>        
+
+        <footer>
+            
+            <hr class="ultimo">
+
+            <p>"El tiempo se escribe a mano en los márgenes del mundo"</p>
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>
