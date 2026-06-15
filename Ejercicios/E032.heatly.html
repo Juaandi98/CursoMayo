@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heatly</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html{
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+         /* ----------------------------
+           CONTENEDOR GENERAL
+        ----------------------------- */
+
+         .page {
+            display: grid;
+            grid-template-columns:
+                minmax(20px, 1fr) minmax(0, 1200px) minmax(20px, 1fr);
+
+            grid-template-areas:
+                ". contenido .";
+        }
+
+        /* ----------------------------
+           GRID GLOBAL DE 12 COLUMNAS
+        ----------------------------- */
+
+        .contenido {
+            grid-area: contenido;
+
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+
+        /* ----------------------------
+           COLUMNAS
+        ----------------------------- */
+
+        .col-12 {
+            grid-column: span 12;
+        }
+
+        .col-8 {
+            grid-column: span 8;
+        }
+
+        .col-6 {
+            grid-column: span 6;
+        }
+
+        .col-4 {
+            grid-column: span 4;
+        }
+
+        .col-3 {
+            grid-column: span 3;
+        }
+
+
+        header{
+            text-align: right;
+            font-size: 0.8rem;
+        }
+
+        header a{
+            text-decoration: none;
+            color: white;
+        }
+
+        header li{
+            display: inline-block;
+            padding: 0.5rem 1rem;
+        }
+
+        .negro{ 
+            background-color: black;
+            color: white;
+        }
+
+        .sombra{
+            background-color: rgb(88, 89, 148);
+        }
+
+        .foto{
+            background-image: url(Imagenesdeejercicios/home-background.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .info{
+            height: 10vh;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.493);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 12vh;
+            margin-bottom: 7vh;
+        }
+
+        .centrado{
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .borde{
+            border-radius: 1px solid rgb(133, 133, 133);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="foto">
+        <div class="negro">
+            <div class="centrado">                
+            </div>
+
+            <a href="Cambiar tamaño del texto">Cambiar tamaño del texto</a>
+
+            <a href="Idioma Español">Idioma Español</a>
+
+        </div>
+
+        <div class="sombra">
+            <div class="centrado">
+
+            <ol>
+            <li><a href="">Comuniquese con nosotros</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Como comunicarse con su plan de salud o plan dental</a></li>
+            <li><a href="">Materiales para nuestros miembros</a></li>            
+            </ol>
+
+        </div>
+</div>
+    </header>
+    
+    <main class="cuerpo">
+
+        <div class="foto">
+
+            <div class="info"></div>
+
+            <div>
+                <h2></h2>
+
+                <p></p>
+            
+            </div>
+
+        </div>
+
+        <div class="abajo">
+
+            <div class="planes">
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="pie"></div>
+    
+</body>
+</html>
